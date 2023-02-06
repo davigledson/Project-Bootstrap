@@ -75,7 +75,7 @@ background-color: #050505;
     color: #111;
     font-size: 3em;
 }
-
+/*CTRL + D = SELECIONAR PALAVRA REPEDIDA MAIS PRÓXIMA*/
 .carousel-indicators [data-bs-target]{
     background-color: #222;
     opacity: 0.8;
@@ -84,4 +84,21 @@ background-color: #050505;
 .carousel-indicators .active{
     background-color: #000;
 }
-/*CTRL + D = SELECIONAR PALAVRA REPEDIDA MAIS PRÓXIMA*/
+
+@media(min-width:768px){ /*só vai afeta desktop*/
+    #slider .carousel-caption{
+        bottom: 15em;
+    }
+    #slider .carousel-caption h5{
+        font-size: 4em;
+        text-shadow: black 2px 3px;
+    }
+    #slider .btn{
+        padding: 0.6 1.6em;
+        font-size: 1.2em;   
+    }
+
+    .carousel-indicators{
+        bottom:7em
+    }
+}

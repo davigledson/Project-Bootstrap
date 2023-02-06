@@ -47,4 +47,41 @@ background-color: #050505;
     margin: 0 1em;
 }
 
-/*SLIDE*/
+/*SLIDER*/
+
+#slider{
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption{
+    bottom: 3em;
+}
+#slider .carousel-caption h5{
+    font-size: 2.5em;
+    text-shadow: black 2px 2px;
+}
+.btn{
+    border-radius:0 ;
+}
+
+#slider .btn{
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,.carousel-control-next i{
+    color: #111;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #222;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+}
+/*CTRL + D = SELECIONAR PALAVRA REPEDIDA MAIS PRÓXIMA*/

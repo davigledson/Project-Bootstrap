@@ -271,3 +271,24 @@ opacity: 0.8;
 }
 
 /*FOOTER BOTTOM*/
+#footer-bottom{
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+#footer-bottom i{
+    color: #e61e10;
+    margin-left: 0.3em;
+}
+@media(min-width:768px){
+    #news-container{
+        padding-right: 2em;
+    }
+    #links-container{
+        padding-left: 2em;
+    }
+}
+#contact-container{
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+}
